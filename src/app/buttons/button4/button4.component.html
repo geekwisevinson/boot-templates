@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <a class="btn btn-primary btn-lg " role="button" aria-pressed="true">non active link</a>
+    <a  class="btn btn-primary btn-lg active" role="button" aria-pressed="true">active link</a>
+    <a class="btn btn-primary btn-lg " role="button" aria-pressed="true">non active link</a>
+    <a  class="btn btn-primary btn-lg " role="button" aria-pressed="true">non active link</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <button type="button" class="btn btn-lg btn-primary" disabled>Disabled button</button>
+    <button type="button" class="btn btn-secondary btn-lg" disabled>Disabled Button</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <p>Disabled buttons using the <a> element behave a bit different:
+
+      a tags don’t support the disabled attribute, so you must add the .disabled class to make it visually appear disabled.
+        Some future-friendly styles are included to disable all pointer-events on anchor buttons. In browsers which support that property, you won’t see the disabled cursor at all.
+        Disabled buttons should include the aria-disabled="true" attribute to indicate the state of the element to assistive technologies.</a>
+
+    </p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">disabled link</a>
+    <a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">disabled Link</a>
+  </div>
+</div>
